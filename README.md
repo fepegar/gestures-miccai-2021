@@ -4,6 +4,9 @@ This repository contains the training scripts used in [Pérez-García et al., 20
 
 The dataset is publicly available at the [UCL Research Data Repository](https://doi.org/10.5522/04/14781771).
 
+## Citation
+
+If you use this code or the dataset for your research, please cite the [paper](https://arxiv.org/abs/2106.12014) and the [dataset](https://doi.org/10.5522/04/14781771) appropriately.
 
 ## Installation
 
@@ -19,8 +22,6 @@ Using `light-the-torch` is recommended to install the best version of PyTorch au
 pip install light-the-torch
 ltt install torch==1.7.0 torchvision==0.4.2
 ```
-
-Note that PyTorch 1.7.1 was used in this study.
 
 Then, clone this repository and install the rest of the requirements:
 
