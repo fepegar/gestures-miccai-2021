@@ -66,7 +66,7 @@ def get_buckets(
         dtype={'Subject': str, 'Seizure': str},
     )
 
-    features_dir = dataset_dir / 'features_fpc_8_fps_15'
+    features_dir = dataset_dir / 'features_fpc_8_fps_15'  # TODO: stop hard-coding this
     df = prepare_df(df, features_dir)
     short = df[df.Duration < min_duration]
     old_df = df
