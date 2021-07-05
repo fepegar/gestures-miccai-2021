@@ -1,0 +1,6 @@
+matplotlib
+pandas
+sacred==0.8.1
+scikit-learn
+pytorch-lightning==0.7.6
+tqdm
