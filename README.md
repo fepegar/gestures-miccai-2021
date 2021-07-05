@@ -1,8 +1,16 @@
-# GESTURES at MICCAI 2021
+# GESTURES – MICCAI 2021
 
 This repository contains the training scripts used in [Pérez-García et al., 2021, *Transfer Learning of Deep Spatiotemporal Networks to Model Arbitrarily Long Videos of Seizures*, Accepted at the 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)](https://arxiv.org/abs/2106.12014).
 
 The dataset is publicly available at the [UCL Research Data Repository](https://doi.org/10.5522/04/14781771).
+
+<p align="center">
+  <a href="http://torchio.rtfd.io/">
+    <img src="https://raw.githubusercontent.com/fepegar/gestures-miccai-2021/master/gestures.png" alt="GESTURES diagram">
+  </a>
+</p>
+
+GESTURES stands for **g**eneralized **e**pileptic **s**eizure classification from video-**t**elemetry **u**sing **re**current convolutional neural network**s**.
 
 ## Citation
 
